@@ -1,0 +1,146 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# Environment Variables and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+config.json
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# FastAPI specific
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+
+# Streamlit specific
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Log Files
+*.log
+logs/
+app.log
+uvicorn.log
+gunicorn.log
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+.temp/
+tmp/
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation
+docs/_build/
+.readthedocs.yml
+
+# Data files (add specific patterns if needed)
+data/
+*.csv
+*.json
+*.xml
+*.xlsx
+*.parquet
+
+# Model files (uncomment if you have large ML models)
+# *.pkl
+# *.joblib
+# *.h5
+# *.pb
+# models/
+
+# Static files and uploads
+static/uploads/
+media/
+uploads/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z

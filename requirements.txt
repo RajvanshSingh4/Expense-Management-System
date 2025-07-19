@@ -1,0 +1,9 @@
+pytest~=7.4.4
+fastapi~=0.116.1
+pydantic~=2.8.2
+mysql-connector-python~=9.3.0
+streamlit~=1.37.1
+requests~=2.32.3
+pandas~=2.2.2
+uvicorn~=0.35.0
+python-decouple
